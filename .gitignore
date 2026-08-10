@@ -14,12 +14,33 @@ ENV/
 Design Chatbot UI/node_modules/
 
 # Data directories (will be created on first run)
-Data/documents/
-Data/knowledge_base/
-Data/vector_index/
-Data/sessions/
-uploads/
-logs/
+# Keep .gitkeep files but ignore actual data
+Data/documents/*
+!Data/documents/.gitkeep
+Data/knowledge_base/*
+!Data/knowledge_base/.gitkeep
+Data/vector_index/*
+!Data/vector_index/.gitkeep
+Data/sessions/*
+!Data/sessions/.gitkeep
+Data/source_admin/*
+!Data/source_admin/.gitkeep
+Data/source_internal/*
+!Data/source_internal/.gitkeep
+Data/registries/*
+!Data/registries/.gitkeep
+Data/videos/*
+!Data/videos/.gitkeep
+uploads/*
+!uploads/.gitkeep
+logs/*
+!logs/.gitkeep
+pipeline/*
+!pipeline/.gitkeep
+video/*
+!video/.gitkeep
+config_schema/*
+!config_schema/.gitkeep
 
 # Database files
 *.db
