@@ -1,0 +1,101 @@
+import { useState, Suspense } from 'react';
+import { ChatSidebar } from './components/ChatSidebar';
+import { ChatArea } from './components/ChatArea';
+import { AdminPage } from './AdminPage';
+import { useChat } from './useChat';
+
+// Fallback UI for lazy loading
+function LoadingScreen() {
+  return (
+    <div
+      style={{
+        width: '100%',
+        height: '100vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: 'var(--whitent)',
+        fontFamily: 'Arial, sans-serif',
+      }}
+    >
+      <div style={{ textAlign: 'center' }}>
+        <div
+          style={{
+            fontSize: '48px',
+            marginBottom: '20px',
+            animation: 'spin 2s linear infinite',
+          }}
+        >
+          ⚙️
+        </div>
+        <p style={{ color: '#666' }}>Loading Chatbot UI...</p>
+      </div>
+      <style>{`
+        @keyframes spin {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+        }
+      `}</style>
+    </div>
+  );
+}
+
+export default function App() {
+  const [currentPage, setCurrentPage] = useState<'chat' | 'admin'>('chat');
+  const { messages, isLoading, error, sendMessage, clearMessages } = useChat();
+  const [chatHistory, setChatHistory] = useState<Array<{ id: string; title: string; timestamp: string }>>([]);
+
+  const handleSendMessage = (content: string) => {
+    sendMessage(content);
+
+    // Add to chat history
+    setChatHistory((prev) => {
+      const now = new Date().toLocaleString();
+      const title = content.substring(0, 50) + (content.length > 50 ? '...' : '');
+      return [{ id: `chat-${Date.now()}`, title, timestamp: now }, ...prev.slice(0, 9)];
+    });
+  };
+
+  const handleNewChat = () => {
+    clearMessages();
+  };
+
+  const handleAdminClick = () => {
+    setCurrentPage('admin');
+  };
+
+  const handleBackToChat = () => {
+    setCurrentPage('chat');
+  };
+
+  if (currentPage === 'admin') {
+    return (
+      <Suspense fallback={<LoadingScreen />}>
+        <div>
+          <button
+            onClick={handleBackToChat}
+            className="fixed top-4 left-4 z-50 px-4 py-2 bg-blue-500 text-white rounded"
+          >
+            Back to Chat
+          </button>
+          <AdminPage />
+        </div>
+      </Suspense>
+    );
+  }
+
+  return (
+    <Suspense fallback={<LoadingScreen />}>
+      <div className="size-full flex" style={{ backgroundColor: 'var(--whitent)' }}>
+        <ChatSidebar
+          chatHistory={chatHistory}
+          activeChatId=""
+          onChatSelect={() => clearMessages()}
+          onNewChat={handleNewChat}
+          onAdminClick={handleAdminClick}
+        />
+        <ChatArea messages={messages} onSendMessage={handleSendMessage} isTyping={isLoading} isError={!!error} />
+      </div>
+    </Suspense>
+  );
+}
