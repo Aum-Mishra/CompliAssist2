@@ -1,0 +1,81 @@
+================================================================================
+                        ⚡ QUICK START - 2 MINUTES
+================================================================================
+
+PROBLEM: No response showing in Design Chatbot UI
+FIXED: ✅ api.ts updated with session_id support
+
+================================================================================
+STEP BY STEP
+================================================================================
+
+Terminal 1: Start Backend
+  cd "d:\Work\Hack\PICT - Chatbot\Chatbot 2"
+  python start_api_server.py
+  
+  Wait for: "Uvicorn running on http://0.0.0.0:8000"
+
+Terminal 2: Build & Run Frontend
+  cd "Design Chatbot UI"
+  npm install  (skip if already done)
+  npm run dev
+  
+  Wait for: "VITE ... ready in ... ms"
+
+Browser: Open UI
+  http://localhost:5173
+
+Send Message
+  Type: "What is the social media policy?"
+  Click: Send
+  Result: ✅ Answer appears (error gone!)
+
+================================================================================
+THAT'S IT!
+================================================================================
+
+The fix is applied.
+Just build & run.
+System works!
+
+================================================================================
+IF PROBLEM PERSISTS
+================================================================================
+
+1. Check backend logs
+   Should show: "[API] /ask endpoint called"
+
+2. Check browser console (F12)
+   Should show: No red errors
+   Should see: Session created in localStorage
+
+3. Check Network tab (F12 → Network)
+   Look at /ask request
+   Should have: "session_id" in request body
+   Should get: 200 OK response
+
+4. Clear cache & reload
+   Ctrl+Shift+Delete → Clear all
+   Refresh page (F5)
+   Try again
+
+================================================================================
+KEY COMMAND
+================================================================================
+
+To run everything:
+
+Terminal 1:
+  cd "d:\Work\Hack\PICT - Chatbot\Chatbot 2"
+  python start_api_server.py
+
+Terminal 2:
+  cd "Design Chatbot UI"
+  npm run dev
+
+Browser:
+  http://localhost:5173
+  
+Send message → Get response ✅
+
+================================================================================

@@ -1,0 +1,41 @@
+EXTRACTION REPORT
+=================
+Total repositories processed: 1
+Repositories failed: 0
+Total files extracted: 119
+
+File Type Breakdown:
+  .md: 64
+  .yaml: 34
+  .json: 5
+  : 7
+  .jsonc: 1
+  .mjs: 3
+  .png: 1
+  .ico: 1
+  .csv: 3
+
+Dataset Files Detected: 8
+  - swagger.json
+  - gt.config.json
+  - project.json
+  - tsconfig.json
+  - swagger.json
+  - cafe_sales_data.csv
+  - cafe_sales_data.csv
+  - cafe_sales_data.csv
+
+Similarity Report (Score > 0.35):
+  - 1.00: CODE_OF_CONDUCT.md <-> CODE_OF_CONDUCT.md
+  - 1.00: cafe_sales_data.csv <-> cafe_sales_data.csv
+  - 1.00: cafe_sales_data.csv <-> cafe_sales_data.csv
+  - 1.00: cafe_sales_data.csv <-> cafe_sales_data.csv
+  - 0.98: README.md <-> README.md
+  - 0.92: README.md <-> README.md
+  - 0.91: daytona_mcp.md <-> daytona_mcp_init.md
+  - 0.91: daytona_mcp.md <-> daytona_mcp_config.md
+  - 0.91: daytona_mcp.md <-> daytona_mcp_start.md
+  - 0.90: README.md <-> README.md
+
+Confirmation:
+  [x] No source code included.

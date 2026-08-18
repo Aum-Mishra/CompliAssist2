@@ -1,71 +1,190 @@
-# Python
+# ============================================================
+# PYTHON
+# ============================================================
+
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+
+# Virtual environments
 env/
 venv/
 .venv/
 ENV/
-.ENV
+.ENV/
+virtualenv/
+
+# Conda environments
+.conda/
+conda-meta/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+# ============================================================
+# NODE.JS / JAVASCRIPT
+# ============================================================
 
 # Dependencies
+node_modules/
+**/node_modules/
+
+# Specific frontend dependency folder
 Design Chatbot UI/node_modules/
 
-# Data directories (will be created on first run)
-# Keep .gitkeep files but ignore actual data
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build artifacts
+dist/
+build/
+.next/
+.nuxt/
+.vite/
+.cache/
+
+# Optional package manager files
+.npm/
+.yarn/
+.pnpm-store/
+
+
+# ============================================================
+# DATA DIRECTORIES
+# ============================================================
+# Data will be created on first run.
+# Keep .gitkeep files but ignore actual data.
+
 Data/documents/*
 !Data/documents/.gitkeep
+
 Data/knowledge_base/*
 !Data/knowledge_base/.gitkeep
+
 Data/vector_index/*
 !Data/vector_index/.gitkeep
+
 Data/sessions/*
 !Data/sessions/.gitkeep
+
 Data/source_admin/*
 !Data/source_admin/.gitkeep
+
 Data/source_internal/*
 !Data/source_internal/.gitkeep
+
 Data/registries/*
 !Data/registries/.gitkeep
+
 Data/videos/*
 !Data/videos/.gitkeep
+
 uploads/*
 !uploads/.gitkeep
+
 logs/*
 !logs/.gitkeep
+
 pipeline/*
 !pipeline/.gitkeep
+
 video/*
 !video/.gitkeep
+
 config_schema/*
 !config_schema/.gitkeep
 
-# Database files
+
+# ============================================================
+# DATABASE
+# ============================================================
+
 *.db
 *.sqlite
 *.sqlite3
 
-# Environment variables
-.env
 
-# IDE
+# ============================================================
+# ENVIRONMENT VARIABLES / SECRETS
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+
+# ============================================================
+# IDE / EDITORS
+# ============================================================
+
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS
+
+# ============================================================
+# OPERATING SYSTEM
+# ============================================================
+
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Build artifacts
-dist/
-build/
-*.egg-info/
 
-# Temporary files
-*.tmp
+# ============================================================
+# LOGS / TEMPORARY FILES
+# ============================================================
+
 *.log
+*.tmp
+*.temp
+
+
+# ============================================================
+# AI / ML / MODEL CACHE
+# ============================================================
+
+# Hugging Face cache
+.cache/
+huggingface_cache/
+transformers_cache/
+
+# Model files - uncomment if models should NOT be uploaded
+# *.pt
+# *.pth
+# *.onnx
+# *.bin
+# *.safetensors
+
+
+# ============================================================
+# TEST / COVERAGE
+# ============================================================
+
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+
+# ============================================================
+# LOCAL CONFIGURATION
+# ============================================================
+
+*.local
+config.local.*

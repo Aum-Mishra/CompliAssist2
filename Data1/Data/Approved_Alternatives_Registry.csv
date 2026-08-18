@@ -1,0 +1,81 @@
+EntityID,EntityName,Platform,Category,BrandSafetyScore,ApprovalRationale,UsageGuideline,ReviewDate
+APP-5000,TechCrunch,Discord,Tech Journalism,99,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",10-02-2025
+APP-5001,Wired Magazine,4chan,Educational Hub,97,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",18-05-2025
+APP-5002,The Verge,TikTok,Tech Journalism,92,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",02-12-2025
+APP-5003,Reuters Business,Facebook,Financial News,99,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",09-01-2025
+APP-5004,Bloomberg Markets,Reddit,Educational Hub,95,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",16-01-2025
+APP-5005,CNBC Make It,Facebook,Non-Profit,97,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",30-01-2025
+APP-5006,National Geographic,Telegram,Non-Profit,93,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",11-04-2025
+APP-5007,Harvard Business Review,Discord,Financial News,93,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",07-02-2025
+APP-5008,MIT Tech Review,Reddit,Industry Partner,91,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",10-11-2025
+APP-5009,Khan Academy,Discord,Industry Partner,99,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",21-06-2025
+APP-5010,World Health Organization,TikTok,Industry Partner,100,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",25-12-2025
+APP-5011,TED Talks,Reddit,Industry Partner,98,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",30-12-2025
+APP-5012,Marques Brownlee,YouTube,Tech Journalism,92,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",10-12-2025
+APP-5013,Linus Tech Tips,4chan,Educational Hub,91,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",12-11-2025
+APP-5014,Wall Street Journal,Discord,Lifestyle Influencer,100,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",02-05-2025
+APP-5015,Financial Times,TikTok,Tech Journalism,95,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",17-07-2025
+APP-5016,Verified_Partner_016,Twitter,Tech Journalism,93,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",16-01-2026
+APP-5017,Verified_Partner_017,4chan,Educational Hub,97,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",31-03-2025
+APP-5018,Verified_Partner_018,Instagram,Tech Journalism,99,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",10-12-2025
+APP-5019,Verified_Partner_019,Twitter,Industry Partner,90,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",19-06-2025
+APP-5020,Verified_Partner_020,Twitter,Industry Partner,96,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",12-08-2025
+APP-5021,Verified_Partner_021,TikTok,Industry Partner,92,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",03-05-2025
+APP-5022,Verified_Partner_022,TikTok,Lifestyle Influencer,92,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",08-04-2025
+APP-5023,Verified_Partner_023,YouTube,Non-Profit,97,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",14-01-2026
+APP-5024,Verified_Partner_024,YouTube,Financial News,93,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",11-06-2025
+APP-5025,Verified_Partner_025,TikTok,Non-Profit,98,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",02-02-2025
+APP-5026,Verified_Partner_026,TikTok,Tech Journalism,93,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",04-12-2025
+APP-5027,Verified_Partner_027,4chan,Lifestyle Influencer,96,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",14-01-2025
+APP-5028,Verified_Partner_028,Discord,Tech Journalism,100,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",06-03-2025
+APP-5029,Verified_Partner_029,TikTok,Non-Profit,95,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",09-01-2026
+APP-5030,Verified_Partner_030,Reddit,Tech Journalism,91,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",11-03-2025
+APP-5031,Verified_Partner_031,Instagram,Non-Profit,97,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",29-08-2025
+APP-5032,Verified_Partner_032,4chan,Educational Hub,97,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",27-10-2025
+APP-5033,Verified_Partner_033,Facebook,Industry Partner,97,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",29-03-2025
+APP-5034,Verified_Partner_034,Twitter,Financial News,97,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",28-03-2025
+APP-5035,Verified_Partner_035,Twitter,Lifestyle Influencer,95,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",09-09-2025
+APP-5036,Verified_Partner_036,Facebook,Lifestyle Influencer,98,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",11-05-2025
+APP-5037,Verified_Partner_037,Facebook,Educational Hub,95,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",31-05-2025
+APP-5038,Verified_Partner_038,Reddit,Financial News,98,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",20-03-2025
+APP-5039,Verified_Partner_039,YouTube,Financial News,97,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",08-06-2025
+APP-5040,Verified_Partner_040,Telegram,Lifestyle Influencer,95,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",13-06-2025
+APP-5041,Verified_Partner_041,Facebook,Lifestyle Influencer,100,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",12-02-2025
+APP-5042,Verified_Partner_042,YouTube,Educational Hub,90,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",08-03-2025
+APP-5043,Verified_Partner_043,Facebook,Educational Hub,95,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",22-10-2025
+APP-5044,Verified_Partner_044,Telegram,Tech Journalism,98,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",09-01-2026
+APP-5045,Verified_Partner_045,Telegram,Non-Profit,100,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",19-01-2026
+APP-5046,Verified_Partner_046,TikTok,Non-Profit,95,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",21-03-2025
+APP-5047,Verified_Partner_047,YouTube,Lifestyle Influencer,96,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",06-06-2025
+APP-5048,Verified_Partner_048,TikTok,Lifestyle Influencer,94,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",12-07-2025
+APP-5049,Verified_Partner_049,YouTube,Non-Profit,90,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",15-07-2025
+APP-5050,Verified_Partner_050,Reddit,Lifestyle Influencer,94,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",30-10-2025
+APP-5051,Verified_Partner_051,Instagram,Tech Journalism,92,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",15-11-2025
+APP-5052,Verified_Partner_052,YouTube,Tech Journalism,95,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",29-05-2025
+APP-5053,Verified_Partner_053,Discord,Educational Hub,97,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",03-03-2025
+APP-5054,Verified_Partner_054,Facebook,Non-Profit,95,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",09-05-2025
+APP-5055,Verified_Partner_055,Instagram,Lifestyle Influencer,98,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",02-01-2026
+APP-5056,Verified_Partner_056,YouTube,Lifestyle Influencer,99,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",04-04-2025
+APP-5057,Verified_Partner_057,YouTube,Non-Profit,94,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",29-08-2025
+APP-5058,Verified_Partner_058,TikTok,Financial News,98,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",09-01-2025
+APP-5059,Verified_Partner_059,Discord,Lifestyle Influencer,98,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",20-06-2025
+APP-5060,Verified_Partner_060,Telegram,Lifestyle Influencer,92,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",12-01-2026
+APP-5061,Verified_Partner_061,YouTube,Non-Profit,90,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",16-06-2025
+APP-5062,Verified_Partner_062,4chan,Financial News,98,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",17-05-2025
+APP-5063,Verified_Partner_063,Twitter,Tech Journalism,100,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",20-05-2025
+APP-5064,Verified_Partner_064,Telegram,Financial News,95,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",10-01-2025
+APP-5065,Verified_Partner_065,Telegram,Financial News,94,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",20-09-2025
+APP-5066,Verified_Partner_066,YouTube,Educational Hub,93,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",01-01-2026
+APP-5067,Verified_Partner_067,Reddit,Industry Partner,98,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",15-02-2025
+APP-5068,Verified_Partner_068,TikTok,Educational Hub,98,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",17-03-2025
+APP-5069,Verified_Partner_069,Facebook,Tech Journalism,92,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",03-03-2025
+APP-5070,Verified_Partner_070,Instagram,Industry Partner,98,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",07-01-2025
+APP-5071,Verified_Partner_071,4chan,Financial News,94,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",26-06-2025
+APP-5072,Verified_Partner_072,TikTok,Tech Journalism,97,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",14-01-2026
+APP-5073,Verified_Partner_073,TikTok,Non-Profit,91,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",30-11-2025
+APP-5074,Verified_Partner_074,Facebook,Non-Profit,100,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",06-07-2025
+APP-5075,Verified_Partner_075,Twitter,Non-Profit,91,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",31-12-2025
+APP-5076,Verified_Partner_076,TikTok,Lifestyle Influencer,94,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",05-08-2025
+APP-5077,Verified_Partner_077,YouTube,Educational Hub,98,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",30-09-2025
+APP-5078,Verified_Partner_078,Reddit,Lifestyle Influencer,96,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",12-09-2025
+APP-5079,Verified_Partner_079,TikTok,Lifestyle Influencer,90,Long-standing accredited publisher with strict editorial standards.,"Approved for Retweeting, Quoting, and Direct Engagement.",15-07-2025

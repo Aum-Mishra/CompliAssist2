@@ -1,0 +1,25 @@
+EXTRACTION REPORT
+=================
+Total repositories processed: 1
+Repositories failed: 0
+Total files extracted: 9
+
+File Type Breakdown:
+  .md: 9
+
+Dataset Files Detected: 0
+
+Similarity Report (Score > 0.35):
+  - 0.82: extend.md <-> html.md
+  - 0.77: misc.md <-> usage.md
+  - 0.77: html.md <-> usage.md
+  - 0.75: html.md <-> misc.md
+  - 0.73: faq.md <-> html.md
+  - 0.72: css.md <-> html.md
+  - 0.71: html.md <-> js.md
+  - 0.70: extend.md <-> usage.md
+  - 0.70: css.md <-> misc.md
+  - 0.70: extend.md <-> misc.md
+
+Confirmation:
+  [x] No source code included.

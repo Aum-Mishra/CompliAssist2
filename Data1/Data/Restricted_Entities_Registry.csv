@@ -1,0 +1,81 @@
+EntityID,EntityName,Platform,RiskScore,RiskReason,MonitoringNotes,RestrictionStatus,LastAuditDate
+RES-1000,WallStreetBets_Elite_V2,TikTok,7,Competitor Black Ops,Flagged by AI sentinel on 2025-09-26. High velocity of negative keywords.,ACTIVE_BLOCK,2025-03-01
+RES-1001,Freedom_Patriot_News_Network,Twitter,9,Competitor Black Ops,Flagged by AI sentinel on 2024-06-17. High velocity of negative keywords.,ACTIVE_BLOCK,2025-06-25
+RES-1002,Crypto_Moon_Lambo_Signals,TikTok,7,State-Sponsored Disinformation,Flagged by AI sentinel on 2025-11-12. High velocity of negative keywords.,ACTIVE_BLOCK,2025-04-15
+RES-1003,Anti_Woke_Crusaders_Official,YouTube,7,Competitor Black Ops,Flagged by AI sentinel on 2025-05-28. High velocity of negative keywords.,ACTIVE_BLOCK,2025-11-10
+RES-1004,Elon_Musk_Giveaway_Admin_Support,Discord,10,Litigious / Copyright Troll,Flagged by AI sentinel on 2024-06-18. High velocity of negative keywords.,ACTIVE_BLOCK,2026-01-09
+RES-1005,Global_Health_Truth_Uncensored,Telegram,10,Hate Speech / Extremism,Flagged by AI sentinel on 2025-01-14. High velocity of negative keywords.,ACTIVE_BLOCK,2026-01-07
+RES-1006,Stock_Market_Insiders_Leak,Telegram,10,Brand Impersonator,Flagged by AI sentinel on 2024-01-20. High velocity of negative keywords.,ACTIVE_BLOCK,2025-06-08
+RES-1007,Alpha_Male_Superiority_Group,Reddit,10,Regulator Target (SEC/FTC),Flagged by AI sentinel on 2024-04-09. High velocity of negative keywords.,ACTIVE_BLOCK,2025-10-27
+RES-1008,Anonymous_Legion_Ops,4chan,8,Malware Distribution,Flagged by AI sentinel on 2025-03-09. High velocity of negative keywords.,ACTIVE_BLOCK,2025-12-08
+RES-1009,Free_Robux_Generator_2026,Reddit,8,Malware Distribution,Flagged by AI sentinel on 2024-04-22. High velocity of negative keywords.,ACTIVE_BLOCK,2025-02-09
+RES-1010,Support_Team_Meta_Helpdesk,TikTok,9,Toxic Community / harassment,Flagged by AI sentinel on 2025-10-09. High velocity of negative keywords.,ACTIVE_BLOCK,2025-01-21
+RES-1011,Election_Integrity_Watch_2025,4chan,8,State-Sponsored Disinformation,Flagged by AI sentinel on 2025-04-26. High velocity of negative keywords.,ACTIVE_BLOCK,2025-10-18
+RES-1012,Based_Trad_Values_Core,Discord,8,Litigious / Copyright Troll,Flagged by AI sentinel on 2024-10-18. High velocity of negative keywords.,ACTIVE_BLOCK,2026-01-04
+RES-1013,No_Vax_Pure_Blood_Society,YouTube,10,Competitor Black Ops,Flagged by AI sentinel on 2025-11-11. High velocity of negative keywords.,ACTIVE_BLOCK,2025-03-10
+RES-1014,Retail_Revolt_Short_Squeeze,Discord,7,Litigious / Copyright Troll,Flagged by AI sentinel on 2025-01-21. High velocity of negative keywords.,ACTIVE_BLOCK,2025-06-01
+RES-1015,Suspicious_Entity_015_Real,4chan,8,Competitor Black Ops,Flagged by AI sentinel on 2024-05-11. High velocity of negative keywords.,ACTIVE_BLOCK,2025-04-09
+RES-1016,Suspicious_Entity_016_Real,Telegram,7,State-Sponsored Disinformation,Flagged by AI sentinel on 2024-11-05. High velocity of negative keywords.,ACTIVE_BLOCK,2025-01-16
+RES-1017,Suspicious_Entity_017_HQ,Instagram,7,Cryptocurrency Scam Ring,Flagged by AI sentinel on 2025-03-10. High velocity of negative keywords.,ACTIVE_BLOCK,2025-03-20
+RES-1018,Suspicious_Entity_018_X,Facebook,10,Hate Speech / Extremism,Flagged by AI sentinel on 2026-01-25. High velocity of negative keywords.,ACTIVE_BLOCK,2025-09-29
+RES-1019,Suspicious_Entity_019_X,Telegram,9,Hate Speech / Extremism,Flagged by AI sentinel on 2025-04-16. High velocity of negative keywords.,ACTIVE_BLOCK,2025-05-28
+RES-1020,Suspicious_Entity_020_HQ,Reddit,9,Brand Impersonator,Flagged by AI sentinel on 2024-07-20. High velocity of negative keywords.,ACTIVE_BLOCK,2025-03-12
+RES-1021,Suspicious_Entity_021_X,4chan,7,Toxic Community / harassment,Flagged by AI sentinel on 2024-08-23. High velocity of negative keywords.,ACTIVE_BLOCK,2026-01-01
+RES-1022,Suspicious_Entity_022_Official,Instagram,10,Cryptocurrency Scam Ring,Flagged by AI sentinel on 2025-03-08. High velocity of negative keywords.,ACTIVE_BLOCK,2025-03-15
+RES-1023,Suspicious_Entity_023_X,Reddit,7,Competitor Black Ops,Flagged by AI sentinel on 2024-03-10. High velocity of negative keywords.,ACTIVE_BLOCK,2026-01-15
+RES-1024,Suspicious_Entity_024_Official,Twitter,7,Coordinate Inauthentic Behavior (Botnet),Flagged by AI sentinel on 2025-08-03. High velocity of negative keywords.,ACTIVE_BLOCK,2025-05-06
+RES-1025,Suspicious_Entity_025_Official,Twitter,7,Toxic Community / harassment,Flagged by AI sentinel on 2025-03-21. High velocity of negative keywords.,ACTIVE_BLOCK,2025-03-24
+RES-1026,Suspicious_Entity_026_Real,Instagram,9,Regulator Target (SEC/FTC),Flagged by AI sentinel on 2024-06-23. High velocity of negative keywords.,ACTIVE_BLOCK,2025-09-22
+RES-1027,Suspicious_Entity_027_Real,Twitter,10,Cryptocurrency Scam Ring,Flagged by AI sentinel on 2024-10-23. High velocity of negative keywords.,ACTIVE_BLOCK,2025-02-18
+RES-1028,Suspicious_Entity_028_Official,Facebook,8,Regulator Target (SEC/FTC),Flagged by AI sentinel on 2024-06-30. High velocity of negative keywords.,ACTIVE_BLOCK,2025-11-18
+RES-1029,Suspicious_Entity_029_X,Twitter,10,Regulator Target (SEC/FTC),Flagged by AI sentinel on 2025-02-15. High velocity of negative keywords.,ACTIVE_BLOCK,2025-01-20
+RES-1030,Suspicious_Entity_030_HQ,Reddit,7,Competitor Black Ops,Flagged by AI sentinel on 2024-11-24. High velocity of negative keywords.,ACTIVE_BLOCK,2025-04-25
+RES-1031,Suspicious_Entity_031_X,YouTube,10,Litigious / Copyright Troll,Flagged by AI sentinel on 2025-10-16. High velocity of negative keywords.,ACTIVE_BLOCK,2025-10-02
+RES-1032,Suspicious_Entity_032_Real,4chan,10,Coordinate Inauthentic Behavior (Botnet),Flagged by AI sentinel on 2024-06-10. High velocity of negative keywords.,ACTIVE_BLOCK,2025-09-16
+RES-1033,Suspicious_Entity_033_HQ,YouTube,8,Toxic Community / harassment,Flagged by AI sentinel on 2024-10-25. High velocity of negative keywords.,ACTIVE_BLOCK,2025-07-25
+RES-1034,Suspicious_Entity_034_Real,Telegram,9,Malware Distribution,Flagged by AI sentinel on 2025-04-06. High velocity of negative keywords.,ACTIVE_BLOCK,2025-10-22
+RES-1035,Suspicious_Entity_035_HQ,Reddit,7,Coordinate Inauthentic Behavior (Botnet),Flagged by AI sentinel on 2025-10-13. High velocity of negative keywords.,ACTIVE_BLOCK,2025-12-05
+RES-1036,Suspicious_Entity_036_Official,Twitter,7,Hate Speech / Extremism,Flagged by AI sentinel on 2024-03-17. High velocity of negative keywords.,ACTIVE_BLOCK,2025-11-06
+RES-1037,Suspicious_Entity_037_X,TikTok,9,Coordinate Inauthentic Behavior (Botnet),Flagged by AI sentinel on 2024-07-31. High velocity of negative keywords.,ACTIVE_BLOCK,2026-01-23
+RES-1038,Suspicious_Entity_038_X,Instagram,7,Malware Distribution,Flagged by AI sentinel on 2026-01-23. High velocity of negative keywords.,ACTIVE_BLOCK,2025-11-20
+RES-1039,Suspicious_Entity_039_HQ,YouTube,9,Coordinate Inauthentic Behavior (Botnet),Flagged by AI sentinel on 2024-07-08. High velocity of negative keywords.,ACTIVE_BLOCK,2025-04-24
+RES-1040,Suspicious_Entity_040_HQ,Twitter,8,State-Sponsored Disinformation,Flagged by AI sentinel on 2025-06-26. High velocity of negative keywords.,ACTIVE_BLOCK,2025-08-07
+RES-1041,Suspicious_Entity_041_X,4chan,8,Coordinate Inauthentic Behavior (Botnet),Flagged by AI sentinel on 2025-12-23. High velocity of negative keywords.,ACTIVE_BLOCK,2025-01-14
+RES-1042,Suspicious_Entity_042_Real,Instagram,7,Competitor Black Ops,Flagged by AI sentinel on 2024-12-22. High velocity of negative keywords.,ACTIVE_BLOCK,2025-02-22
+RES-1043,Suspicious_Entity_043_Official,Facebook,7,Litigious / Copyright Troll,Flagged by AI sentinel on 2024-02-19. High velocity of negative keywords.,ACTIVE_BLOCK,2025-02-01
+RES-1044,Suspicious_Entity_044_Official,4chan,10,Litigious / Copyright Troll,Flagged by AI sentinel on 2025-10-12. High velocity of negative keywords.,ACTIVE_BLOCK,2025-09-30
+RES-1045,Suspicious_Entity_045_Real,4chan,7,Brand Impersonator,Flagged by AI sentinel on 2024-03-30. High velocity of negative keywords.,ACTIVE_BLOCK,2025-01-15
+RES-1046,Suspicious_Entity_046_Official,Telegram,8,Coordinate Inauthentic Behavior (Botnet),Flagged by AI sentinel on 2024-06-28. High velocity of negative keywords.,ACTIVE_BLOCK,2025-04-03
+RES-1047,Suspicious_Entity_047_HQ,Discord,8,Competitor Black Ops,Flagged by AI sentinel on 2025-02-13. High velocity of negative keywords.,ACTIVE_BLOCK,2026-01-26
+RES-1048,Suspicious_Entity_048_HQ,YouTube,7,Coordinate Inauthentic Behavior (Botnet),Flagged by AI sentinel on 2024-02-04. High velocity of negative keywords.,ACTIVE_BLOCK,2025-12-07
+RES-1049,Suspicious_Entity_049_X,Discord,9,Cryptocurrency Scam Ring,Flagged by AI sentinel on 2025-09-13. High velocity of negative keywords.,ACTIVE_BLOCK,2025-06-10
+RES-1050,Suspicious_Entity_050_HQ,YouTube,7,Litigious / Copyright Troll,Flagged by AI sentinel on 2025-05-19. High velocity of negative keywords.,ACTIVE_BLOCK,2025-06-12
+RES-1051,Suspicious_Entity_051_X,Twitter,9,Competitor Black Ops,Flagged by AI sentinel on 2025-01-01. High velocity of negative keywords.,ACTIVE_BLOCK,2025-07-05
+RES-1052,Suspicious_Entity_052_X,Reddit,8,Coordinate Inauthentic Behavior (Botnet),Flagged by AI sentinel on 2024-09-20. High velocity of negative keywords.,ACTIVE_BLOCK,2025-09-19
+RES-1053,Suspicious_Entity_053_Real,Twitter,10,State-Sponsored Disinformation,Flagged by AI sentinel on 2025-05-31. High velocity of negative keywords.,ACTIVE_BLOCK,2025-06-22
+RES-1054,Suspicious_Entity_054_Real,Telegram,10,Brand Impersonator,Flagged by AI sentinel on 2025-12-12. High velocity of negative keywords.,ACTIVE_BLOCK,2025-02-03
+RES-1055,Suspicious_Entity_055_X,Facebook,8,Coordinate Inauthentic Behavior (Botnet),Flagged by AI sentinel on 2025-10-23. High velocity of negative keywords.,ACTIVE_BLOCK,2025-08-02
+RES-1056,Suspicious_Entity_056_Official,4chan,9,Brand Impersonator,Flagged by AI sentinel on 2025-02-20. High velocity of negative keywords.,ACTIVE_BLOCK,2025-08-31
+RES-1057,Suspicious_Entity_057_X,Discord,9,Competitor Black Ops,Flagged by AI sentinel on 2024-12-26. High velocity of negative keywords.,ACTIVE_BLOCK,2025-01-29
+RES-1058,Suspicious_Entity_058_HQ,Instagram,7,Competitor Black Ops,Flagged by AI sentinel on 2025-06-11. High velocity of negative keywords.,ACTIVE_BLOCK,2025-07-28
+RES-1059,Suspicious_Entity_059_Real,Telegram,8,Regulator Target (SEC/FTC),Flagged by AI sentinel on 2025-11-26. High velocity of negative keywords.,ACTIVE_BLOCK,2025-07-20
+RES-1060,Suspicious_Entity_060_Real,Instagram,7,Cryptocurrency Scam Ring,Flagged by AI sentinel on 2024-07-28. High velocity of negative keywords.,ACTIVE_BLOCK,2025-09-29
+RES-1061,Suspicious_Entity_061_HQ,4chan,7,Hate Speech / Extremism,Flagged by AI sentinel on 2024-05-07. High velocity of negative keywords.,ACTIVE_BLOCK,2025-03-17
+RES-1062,Suspicious_Entity_062_HQ,Telegram,9,Malware Distribution,Flagged by AI sentinel on 2024-01-29. High velocity of negative keywords.,ACTIVE_BLOCK,2025-11-09
+RES-1063,Suspicious_Entity_063_X,4chan,7,Competitor Black Ops,Flagged by AI sentinel on 2024-04-24. High velocity of negative keywords.,ACTIVE_BLOCK,2025-08-13
+RES-1064,Suspicious_Entity_064_HQ,Facebook,9,Malware Distribution,Flagged by AI sentinel on 2026-01-25. High velocity of negative keywords.,ACTIVE_BLOCK,2025-08-15
+RES-1065,Suspicious_Entity_065_HQ,Twitter,7,Malware Distribution,Flagged by AI sentinel on 2024-03-30. High velocity of negative keywords.,ACTIVE_BLOCK,2025-06-16
+RES-1066,Suspicious_Entity_066_X,Discord,9,Coordinate Inauthentic Behavior (Botnet),Flagged by AI sentinel on 2026-01-08. High velocity of negative keywords.,ACTIVE_BLOCK,2025-06-27
+RES-1067,Suspicious_Entity_067_Official,4chan,10,Regulator Target (SEC/FTC),Flagged by AI sentinel on 2024-02-13. High velocity of negative keywords.,ACTIVE_BLOCK,2025-06-14
+RES-1068,Suspicious_Entity_068_X,Instagram,7,State-Sponsored Disinformation,Flagged by AI sentinel on 2025-10-10. High velocity of negative keywords.,ACTIVE_BLOCK,2025-09-16
+RES-1069,Suspicious_Entity_069_Official,Instagram,8,Toxic Community / harassment,Flagged by AI sentinel on 2024-12-02. High velocity of negative keywords.,ACTIVE_BLOCK,2026-01-18
+RES-1070,Suspicious_Entity_070_Official,TikTok,8,Toxic Community / harassment,Flagged by AI sentinel on 2024-06-15. High velocity of negative keywords.,ACTIVE_BLOCK,2025-12-01
+RES-1071,Suspicious_Entity_071_Real,Telegram,8,Coordinate Inauthentic Behavior (Botnet),Flagged by AI sentinel on 2025-09-12. High velocity of negative keywords.,ACTIVE_BLOCK,2025-09-09
+RES-1072,Suspicious_Entity_072_Official,Facebook,8,Regulator Target (SEC/FTC),Flagged by AI sentinel on 2025-01-17. High velocity of negative keywords.,ACTIVE_BLOCK,2025-06-19
+RES-1073,Suspicious_Entity_073_HQ,Discord,7,Toxic Community / harassment,Flagged by AI sentinel on 2026-01-21. High velocity of negative keywords.,ACTIVE_BLOCK,2025-03-30
+RES-1074,Suspicious_Entity_074_X,Telegram,10,Hate Speech / Extremism,Flagged by AI sentinel on 2025-03-21. High velocity of negative keywords.,ACTIVE_BLOCK,2025-05-11
+RES-1075,Suspicious_Entity_075_HQ,YouTube,10,Cryptocurrency Scam Ring,Flagged by AI sentinel on 2024-09-12. High velocity of negative keywords.,ACTIVE_BLOCK,2025-02-03
+RES-1076,Suspicious_Entity_076_HQ,4chan,8,Coordinate Inauthentic Behavior (Botnet),Flagged by AI sentinel on 2025-10-19. High velocity of negative keywords.,ACTIVE_BLOCK,2025-12-21
+RES-1077,Suspicious_Entity_077_Real,Instagram,8,Regulator Target (SEC/FTC),Flagged by AI sentinel on 2026-01-04. High velocity of negative keywords.,ACTIVE_BLOCK,2025-02-06
+RES-1078,Suspicious_Entity_078_Real,Instagram,9,Competitor Black Ops,Flagged by AI sentinel on 2025-01-01. High velocity of negative keywords.,ACTIVE_BLOCK,2025-08-04
+RES-1079,Suspicious_Entity_079_Real,Instagram,10,Malware Distribution,Flagged by AI sentinel on 2025-06-04. High velocity of negative keywords.,ACTIVE_BLOCK,2025-05-29

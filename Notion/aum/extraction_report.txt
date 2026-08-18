@@ -1,0 +1,21 @@
+============================================================
+NOTION DATA EXTRACTION REPORT
+============================================================
+
+Extraction Date: 2026-02-13 09:57:08
+
+Output Directory: C:\Users\Admin\OneDrive\Desktop\HM\PICT\Notin Extraction\aum
+
+------------------------------------------------------------
+SUMMARY
+------------------------------------------------------------
+Total Databases Exported: 1
+Total Pages Exported: 2
+Total Files Created: 3
+Total Data Size: 2.33 KB (0.00 MB)
+
+✓ No errors encountered
+
+============================================================
+END OF REPORT
+============================================================

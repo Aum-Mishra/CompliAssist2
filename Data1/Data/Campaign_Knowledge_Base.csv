@@ -1,0 +1,81 @@
+CampaignID,CampaignName,Client,Platform,RiskProfile,ComplianceConstraint,HistoricalOutcome,IncidentLog
+CMP-202500,EduFuture_School_Q4_Launch,EduFuture_School,Twitter,Low,Standard FTC Disclosure required.,Paused_Early,Minor tone violation caught in QA.
+CMP-202501,EduFuture_School_Q4_Launch,EduFuture_School,Telegram,Medium,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202502,GreenDrink_Beverage_Q1_Sustain,GreenDrink_Beverage,TikTok,Low,Standard FTC Disclosure required.,Paused_Early,None
+CMP-202503,EduFuture_School_Q4_Growth,EduFuture_School,Discord,Low,Standard FTC Disclosure required.,Paused_Early,None
+CMP-202504,MediCare_Health_Q1_Sustain,MediCare_Health,Facebook,High,HIPAA Compliance. No patient testimonials without release.,Success,Minor tone violation caught in QA.
+CMP-202505,CyberSecure_SaaS_Q4_Launch,CyberSecure_SaaS,Instagram,Medium,Standard FTC Disclosure required.,Paused_Early,Minor tone violation caught in QA.
+CMP-202506,NeoBank_Fintech_Q4_Launch,NeoBank_Fintech,Reddit,Low,SEC Reg D applies. No ROI promises.,Partial_Success,None
+CMP-202507,EduFuture_School_Q3_Growth,EduFuture_School,Telegram,High,Standard FTC Disclosure required.,Success,Minor tone violation caught in QA.
+CMP-202508,NeoBank_Fintech_Q3_Growth,NeoBank_Fintech,Reddit,Low,SEC Reg D applies. No ROI promises.,Partial_Success,None
+CMP-202509,NeoBank_Fintech_Q2_Sustain,NeoBank_Fintech,TikTok,High,SEC Reg D applies. No ROI promises.,Success,Minor tone violation caught in QA.
+CMP-202510,CyberSecure_SaaS_Q3_Growth,CyberSecure_SaaS,Discord,High,Standard FTC Disclosure required.,Paused_Early,Minor tone violation caught in QA.
+CMP-202511,GreenDrink_Beverage_Q2_Launch,GreenDrink_Beverage,Reddit,Medium,Standard FTC Disclosure required.,Paused_Early,None
+CMP-202512,EduFuture_School_Q2_Launch,EduFuture_School,TikTok,Medium,Standard FTC Disclosure required.,Partial_Success,Minor tone violation caught in QA.
+CMP-202513,NeoBank_Fintech_Q2_Growth,NeoBank_Fintech,Facebook,Medium,SEC Reg D applies. No ROI promises.,Success,None
+CMP-202514,GreenDrink_Beverage_Q2_Growth,GreenDrink_Beverage,Telegram,Low,Standard FTC Disclosure required.,Partial_Success,Minor tone violation caught in QA.
+CMP-202515,GreenDrink_Beverage_Q3_Growth,GreenDrink_Beverage,Facebook,Low,Standard FTC Disclosure required.,Success,None
+CMP-202516,EduFuture_School_Q4_Launch,EduFuture_School,Discord,High,Standard FTC Disclosure required.,Paused_Early,None
+CMP-202517,GreenDrink_Beverage_Q1_Launch,GreenDrink_Beverage,Twitter,Low,Standard FTC Disclosure required.,Partial_Success,Minor tone violation caught in QA.
+CMP-202518,CyberSecure_SaaS_Q3_Launch,CyberSecure_SaaS,Reddit,Low,Standard FTC Disclosure required.,Success,None
+CMP-202519,GreenDrink_Beverage_Q1_Growth,GreenDrink_Beverage,Reddit,High,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202520,CyberSecure_SaaS_Q4_Launch,CyberSecure_SaaS,Discord,Medium,Standard FTC Disclosure required.,Paused_Early,Minor tone violation caught in QA.
+CMP-202521,CyberSecure_SaaS_Q1_Launch,CyberSecure_SaaS,Twitter,High,Standard FTC Disclosure required.,Success,None
+CMP-202522,MediCare_Health_Q3_Growth,MediCare_Health,4chan,Low,HIPAA Compliance. No patient testimonials without release.,Partial_Success,None
+CMP-202523,EduFuture_School_Q2_Launch,EduFuture_School,Twitter,Medium,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202524,CyberSecure_SaaS_Q3_Sustain,CyberSecure_SaaS,Twitter,Medium,Standard FTC Disclosure required.,Partial_Success,Minor tone violation caught in QA.
+CMP-202525,GreenDrink_Beverage_Q2_Launch,GreenDrink_Beverage,YouTube,Low,Standard FTC Disclosure required.,Success,None
+CMP-202526,EduFuture_School_Q3_Growth,EduFuture_School,Reddit,High,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202527,NeoBank_Fintech_Q4_Growth,NeoBank_Fintech,Facebook,Medium,SEC Reg D applies. No ROI promises.,Paused_Early,None
+CMP-202528,MediCare_Health_Q3_Growth,MediCare_Health,4chan,High,HIPAA Compliance. No patient testimonials without release.,Paused_Early,None
+CMP-202529,GreenDrink_Beverage_Q3_Growth,GreenDrink_Beverage,Discord,Medium,Standard FTC Disclosure required.,Paused_Early,None
+CMP-202530,EduFuture_School_Q3_Sustain,EduFuture_School,Discord,Medium,Standard FTC Disclosure required.,Partial_Success,Minor tone violation caught in QA.
+CMP-202531,EduFuture_School_Q1_Growth,EduFuture_School,YouTube,Low,Standard FTC Disclosure required.,Paused_Early,None
+CMP-202532,NeoBank_Fintech_Q4_Sustain,NeoBank_Fintech,Instagram,Low,SEC Reg D applies. No ROI promises.,Success,None
+CMP-202533,EduFuture_School_Q2_Sustain,EduFuture_School,YouTube,High,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202534,NeoBank_Fintech_Q1_Growth,NeoBank_Fintech,Facebook,Medium,SEC Reg D applies. No ROI promises.,Paused_Early,None
+CMP-202535,NeoBank_Fintech_Q1_Sustain,NeoBank_Fintech,Instagram,Low,SEC Reg D applies. No ROI promises.,Partial_Success,None
+CMP-202536,EduFuture_School_Q1_Sustain,EduFuture_School,4chan,Low,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202537,NeoBank_Fintech_Q1_Sustain,NeoBank_Fintech,YouTube,Medium,SEC Reg D applies. No ROI promises.,Paused_Early,None
+CMP-202538,NeoBank_Fintech_Q1_Sustain,NeoBank_Fintech,TikTok,Medium,SEC Reg D applies. No ROI promises.,Partial_Success,None
+CMP-202539,MediCare_Health_Q3_Launch,MediCare_Health,Twitter,Medium,HIPAA Compliance. No patient testimonials without release.,Success,None
+CMP-202540,NeoBank_Fintech_Q2_Launch,NeoBank_Fintech,YouTube,Low,SEC Reg D applies. No ROI promises.,Partial_Success,None
+CMP-202541,GreenDrink_Beverage_Q3_Sustain,GreenDrink_Beverage,Twitter,Medium,Standard FTC Disclosure required.,Paused_Early,None
+CMP-202542,CyberSecure_SaaS_Q2_Launch,CyberSecure_SaaS,YouTube,High,Standard FTC Disclosure required.,Paused_Early,Minor tone violation caught in QA.
+CMP-202543,CyberSecure_SaaS_Q1_Growth,CyberSecure_SaaS,Facebook,High,Standard FTC Disclosure required.,Success,Minor tone violation caught in QA.
+CMP-202544,NeoBank_Fintech_Q4_Growth,NeoBank_Fintech,Reddit,Low,SEC Reg D applies. No ROI promises.,Success,None
+CMP-202545,GreenDrink_Beverage_Q3_Sustain,GreenDrink_Beverage,4chan,Medium,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202546,GreenDrink_Beverage_Q3_Growth,GreenDrink_Beverage,Discord,High,Standard FTC Disclosure required.,Success,None
+CMP-202547,NeoBank_Fintech_Q3_Growth,NeoBank_Fintech,Facebook,Medium,SEC Reg D applies. No ROI promises.,Success,None
+CMP-202548,EduFuture_School_Q1_Launch,EduFuture_School,Instagram,Medium,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202549,CyberSecure_SaaS_Q3_Sustain,CyberSecure_SaaS,YouTube,Low,Standard FTC Disclosure required.,Success,None
+CMP-202550,EduFuture_School_Q3_Growth,EduFuture_School,YouTube,High,Standard FTC Disclosure required.,Paused_Early,None
+CMP-202551,EduFuture_School_Q1_Sustain,EduFuture_School,Reddit,Low,Standard FTC Disclosure required.,Partial_Success,Minor tone violation caught in QA.
+CMP-202552,NeoBank_Fintech_Q2_Launch,NeoBank_Fintech,Discord,Low,SEC Reg D applies. No ROI promises.,Paused_Early,None
+CMP-202553,EduFuture_School_Q2_Sustain,EduFuture_School,Facebook,Low,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202554,CyberSecure_SaaS_Q2_Sustain,CyberSecure_SaaS,Twitter,Medium,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202555,NeoBank_Fintech_Q1_Launch,NeoBank_Fintech,4chan,Medium,SEC Reg D applies. No ROI promises.,Success,None
+CMP-202556,MediCare_Health_Q3_Sustain,MediCare_Health,Twitter,High,HIPAA Compliance. No patient testimonials without release.,Paused_Early,None
+CMP-202557,GreenDrink_Beverage_Q3_Launch,GreenDrink_Beverage,Twitter,High,Standard FTC Disclosure required.,Success,None
+CMP-202558,NeoBank_Fintech_Q1_Growth,NeoBank_Fintech,Reddit,Medium,SEC Reg D applies. No ROI promises.,Success,None
+CMP-202559,NeoBank_Fintech_Q4_Sustain,NeoBank_Fintech,Instagram,High,SEC Reg D applies. No ROI promises.,Paused_Early,Minor tone violation caught in QA.
+CMP-202560,GreenDrink_Beverage_Q1_Growth,GreenDrink_Beverage,Reddit,Low,Standard FTC Disclosure required.,Success,None
+CMP-202561,NeoBank_Fintech_Q3_Launch,NeoBank_Fintech,Twitter,High,SEC Reg D applies. No ROI promises.,Partial_Success,None
+CMP-202562,GreenDrink_Beverage_Q2_Launch,GreenDrink_Beverage,Twitter,Medium,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202563,NeoBank_Fintech_Q1_Launch,NeoBank_Fintech,Facebook,Medium,SEC Reg D applies. No ROI promises.,Paused_Early,Minor tone violation caught in QA.
+CMP-202564,GreenDrink_Beverage_Q3_Growth,GreenDrink_Beverage,4chan,Medium,Standard FTC Disclosure required.,Paused_Early,Minor tone violation caught in QA.
+CMP-202565,EduFuture_School_Q1_Launch,EduFuture_School,YouTube,Low,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202566,MediCare_Health_Q4_Growth,MediCare_Health,Discord,Medium,HIPAA Compliance. No patient testimonials without release.,Partial_Success,None
+CMP-202567,NeoBank_Fintech_Q4_Launch,NeoBank_Fintech,Instagram,High,SEC Reg D applies. No ROI promises.,Partial_Success,None
+CMP-202568,NeoBank_Fintech_Q4_Growth,NeoBank_Fintech,YouTube,Medium,SEC Reg D applies. No ROI promises.,Partial_Success,None
+CMP-202569,CyberSecure_SaaS_Q1_Sustain,CyberSecure_SaaS,Telegram,High,Standard FTC Disclosure required.,Paused_Early,None
+CMP-202570,CyberSecure_SaaS_Q1_Growth,CyberSecure_SaaS,Facebook,Low,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202571,EduFuture_School_Q4_Launch,EduFuture_School,Reddit,High,Standard FTC Disclosure required.,Paused_Early,None
+CMP-202572,EduFuture_School_Q1_Growth,EduFuture_School,Telegram,High,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202573,MediCare_Health_Q4_Sustain,MediCare_Health,Telegram,Low,HIPAA Compliance. No patient testimonials without release.,Paused_Early,None
+CMP-202574,GreenDrink_Beverage_Q3_Sustain,GreenDrink_Beverage,Twitter,High,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202575,CyberSecure_SaaS_Q2_Sustain,CyberSecure_SaaS,TikTok,Low,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202576,GreenDrink_Beverage_Q1_Launch,GreenDrink_Beverage,Facebook,Medium,Standard FTC Disclosure required.,Partial_Success,None
+CMP-202577,NeoBank_Fintech_Q1_Sustain,NeoBank_Fintech,Reddit,Low,SEC Reg D applies. No ROI promises.,Partial_Success,None
+CMP-202578,EduFuture_School_Q2_Launch,EduFuture_School,Twitter,High,Standard FTC Disclosure required.,Paused_Early,None
+CMP-202579,NeoBank_Fintech_Q1_Growth,NeoBank_Fintech,TikTok,High,SEC Reg D applies. No ROI promises.,Success,None

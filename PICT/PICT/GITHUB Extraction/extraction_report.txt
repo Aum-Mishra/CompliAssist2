@@ -1,0 +1,2 @@
+Extraction Pending Manual Execution.
+Please run `process_repo.py` to generate the full report.

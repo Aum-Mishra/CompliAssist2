@@ -196,5 +196,49 @@
     "vector_indexed": true,
     "indexed_at": "2026-08-09T20:39:15.974831",
     "chunk_count": 1
+  },
+  "08f7519d-86cf-4840-95e2-32c6632fb239": {
+    "video_id": "08f7519d-86cf-4840-95e2-32c6632fb239",
+    "type": "video",
+    "filename": "sample-mp4-file-small.mp4",
+    "uploaded_at": "2026-08-10T05:53:23.730604",
+    "transcript_length": 30,
+    "status": "transcribed",
+    "vector_indexed": true,
+    "indexed_at": "2026-08-10T05:53:24.069538",
+    "chunk_count": 1
+  },
+  "1a9ad5de-e5e6-4bff-9810-7604a66b0030": {
+    "video_id": "1a9ad5de-e5e6-4bff-9810-7604a66b0030",
+    "type": "video",
+    "filename": "sample-mp4-file-small.mp4",
+    "uploaded_at": "2026-08-10T05:53:34.743218",
+    "transcript_length": 30,
+    "status": "transcribed",
+    "vector_indexed": true,
+    "indexed_at": "2026-08-10T05:53:35.030282",
+    "chunk_count": 1
+  },
+  "6e9c9a41-536e-4728-8659-44300607a6ff": {
+    "video_id": "6e9c9a41-536e-4728-8659-44300607a6ff",
+    "type": "video",
+    "filename": "imp.mp4",
+    "uploaded_at": "2026-08-16T09:18:20.981803",
+    "transcript_length": 6542,
+    "status": "transcribed",
+    "vector_indexed": true,
+    "indexed_at": "2026-08-16T09:18:21.557469",
+    "chunk_count": 9
+  },
+  "f293e713-c5c2-440d-83aa-0462ac99d1a4": {
+    "video_id": "f293e713-c5c2-440d-83aa-0462ac99d1a4",
+    "type": "video",
+    "filename": "imp.mp4",
+    "uploaded_at": "2026-08-16T10:14:26.161047",
+    "transcript_length": 6542,
+    "status": "transcribed",
+    "vector_indexed": true,
+    "indexed_at": "2026-08-16T10:14:26.550155",
+    "chunk_count": 9
   }
 }

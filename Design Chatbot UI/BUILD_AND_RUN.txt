@@ -1,0 +1,340 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                        BUILD AND RUN GUIDE                                  ║
+║                    ChatGPT-Like Session System ✅                           ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+PREREQUISITES
+═════════════════════════════════════════════════════════════════════════════
+✅ Python 3.9+ installed
+✅ Node.js 16+ installed
+✅ npm installed
+✅ Ollama installed and running (if using local LLM)
+
+
+QUICK START (Copy & Paste)
+═════════════════════════════════════════════════════════════════════════════
+
+TERMINAL 1 - Backend:
+─────────────────────────────────────────────────────────────────────────────
+cd d:\Work\Hack\PICT - Chatbot\Chatbot 2
+python start_api_server.py
+
+TERMINAL 2 - Frontend:
+─────────────────────────────────────────────────────────────────────────────
+cd d:\Work\Hack\PICT - Chatbot\Chatbot 2\Design Chatbot UI
+npm install   (first time only)
+npm run dev
+
+BROWSER:
+─────────────────────────────────────────────────────────────────────────────
+http://localhost:5173/
+
+
+WHAT YOU SHOULD SEE
+═════════════════════════════════════════════════════════════════════════════
+
+TERMINAL 1 Output:
+├─ ✓ Server is ready!
+├─ API URL: http://localhost:8000
+├─ INFO:     Started server process
+└─ INFO:     Uvicorn running on http://0.0.0.0:8000
+
+TERMINAL 2 Output:
+├─ VITE v... ready in ... ms
+└─ ➜  Local:   http://localhost:5173/
+
+BROWSER (http://localhost:5173/):
+├─ Chat interface loads
+├─ "New Chat" button visible
+└─ Sidebar ready for sessions
+
+
+VERIFY IT WORKS
+═════════════════════════════════════════════════════════════════════════════
+
+TEST: Multiple Questions in One Session
+────────────────────────────────────────────────────────────────────────────
+1. Type: "What is the policy?"
+   → Hit Send
+   → Message appears
+   → Response appears below
+   → ✅ Sidebar shows 1 chat
+
+2. Type: "What about risk?"
+   → Hit Send
+   → Message appends BELOW first Q&A
+   → ✅ Still shows 1 chat (not 2)
+   → ✅ Both messages visible
+
+3. Type: "Medium or high?"
+   → Hit Send
+   → Message appends
+   → Response includes context from Q2
+   → ✅ Still 1 chat with 3 Q&A
+
+TEST RESULT: ✅ ALL IN ONE SESSION
+
+
+TEST: New Chat
+────────────────────────────────────────────────────────────────────────────
+1. Click "New Chat" button
+   → Chat clears
+   → Sidebar now shows 2 chats
+   → "Chat 1: What is the policy?"
+   → "Chat 2: [empty]"
+   → ✅ New session created
+
+2. Ask question in Chat 2
+   → Message appears
+   → Goes to Chat 2 only
+   → Chat 1 unchanged
+   → ✅ Separate session
+
+TEST RESULT: ✅ NEW CHAT WORKS
+
+
+TEST: Session Switching
+────────────────────────────────────────────────────────────────────────────
+1. Click "Chat 1" in sidebar
+   → All 3 messages load
+   → Full conversation visible
+   → ✅ History restored
+
+2. Ask new question
+   → Appends to Chat 1
+   → Chat 2 unchanged
+   → ✅ Append works
+
+TEST RESULT: ✅ SESSION SWITCHING WORKS
+
+
+ALL TESTS PASS: ✅ SYSTEM READY
+
+
+IF SOMETHING DOESN'T WORK
+═════════════════════════════════════════════════════════════════════════════
+
+ERROR: "Cannot GET /vite/@vite/client"
+───────────────────────────────────────────────────────────────────────────
+Solution:
+1. Ctrl+C in Terminal 2
+2. rm -r node_modules
+3. npm install
+4. npm run dev
+(Or: del /s node_modules, then npm install, then npm run dev on Windows)
+
+
+ERROR: "Port 5173 already in use"
+───────────────────────────────────────────────────────────────────────────
+Solution 1:
+1. Find what's using port 5173: netstat -ano | findstr :5173
+2. Kill process: taskkill /PID <PID> /F
+
+Solution 2:
+1. Use different port: npm run dev -- --port 3000
+2. Visit: http://localhost:3000/
+
+
+ERROR: "Backend not running" or "No response"
+───────────────────────────────────────────────────────────────────────────
+Solution:
+1. Check backend running: http://localhost:8000/health
+2. If not running, start Terminal 1: python start_api_server.py
+3. Wait for "✓ Server is ready!"
+4. Refresh browser
+
+
+ERROR: "No sessions found"
+───────────────────────────────────────────────────────────────────────────
+Solution:
+1. Reload page: F5
+2. Check browser console: F12 → Console tab
+3. Look for [SESSION] logs
+4. If no logs, backend not responding
+
+
+ERROR: "TypeError: Cannot read property 'messages' of undefined"
+───────────────────────────────────────────────────────────────────────────
+Solution:
+1. Clear browser cache: Ctrl+Shift+Delete
+2. Close DevTools: F12
+3. Reload: F5
+4. Try again
+
+
+ERROR: Messages not appending (each question separate)
+───────────────────────────────────────────────────────────────────────────
+Solution:
+1. F12 → Network tab
+2. Send message
+3. Check POST /ask request:
+   - Body contains "session_id": "sess_..."
+   - Response is 200 OK
+4. If not, restart both terminals
+5. Check useChat.ts has sessionId parameter
+
+
+ERROR: Sidebar empty (no sessions listed)
+───────────────────────────────────────────────────────────────────────────
+Solution:
+1. Check browser console for [SESSION] logs
+2. Verify /data/sessions/ directory exists
+3. Check backend /sessions endpoint:
+   curl http://localhost:8000/sessions?user_id=default_user
+4. Should return JSON with sessions array
+5. If not, backend issue
+
+
+COMPLETE RESTART (Nuclear Option)
+═════════════════════════════════════════════════════════════════════════════
+
+1. Close all terminals (Ctrl+C everywhere)
+2. Delete frontend build:
+   cd Design Chatbot UI
+   del /s /q node_modules
+   del package-lock.json
+   
+3. Delete backend cache:
+   cd .. (back to main directory)
+   del /s __pycache__
+   
+4. Start fresh:
+   Terminal 1: python start_api_server.py
+   Terminal 2: cd Design Chatbot UI && npm install && npm run dev
+   
+5. Browser: http://localhost:5173/
+
+
+DEBUGGING
+═════════════════════════════════════════════════════════════════════════════
+
+Check Browser Console (F12):
+├─ [SESSION] logs should appear
+├─ [API] logs for requests
+└─ No red errors
+
+Check Backend Console:
+├─ [API] /ask endpoint called
+├─ INFO:     127.0.0.1:... "POST /ask HTTP/1.1" 200 OK
+└─ No error messages
+
+Check Backend Endpoints:
+├─ http://localhost:8000/health
+├─ http://localhost:8000/docs (interactive API)
+└─ http://localhost:8000/sessions?user_id=default_user
+
+
+FILES TO REMEMBER
+═════════════════════════════════════════════════════════════════════════════
+
+Source Code:
+├─ Design Chatbot UI/src/app/useSession.ts (session management)
+├─ Design Chatbot UI/src/app/useChat.ts (message handling)
+├─ Design Chatbot UI/src/app/App.tsx (orchestration)
+└─ api_server.py (backend)
+
+Documentation:
+├─ QUICK_START_SESSION_FIX.txt (this file's origin)
+├─ CHATGPT_SESSION_SYSTEM_COMPLETE.md (comprehensive guide)
+└─ IMPLEMENTATION_SUMMARY_SESSION_FIX.md (summary)
+
+Storage:
+├─ /data/sessions/ (backend session files)
+├─ localStorage (currentSessionId in browser)
+└─ Browser DevTools → Application → localStorage
+
+
+IMPORTANT NOTES
+═════════════════════════════════════════════════════════════════════════════
+
+✅ First time npm install might take 1-2 minutes
+✅ Backend startup might take 10-20 seconds
+✅ Browser might take 5-10 seconds to load (dev mode)
+✅ Each message might take 3-5 seconds to respond
+✅ All normal - don't interrupt processes
+
+❌ Don't close terminals while testing
+❌ Don't refresh page mid-request (can lose messages)
+❌ Don't edit code while backend/frontend running
+❌ Don't delete /data/sessions/ directory while running
+
+
+WHAT'S RUNNING
+═════════════════════════════════════════════════════════════════════════════
+
+Terminal 1 (Backend):
+├─ Python FastAPI server
+├─ Port: 8000
+├─ Endpoints: /ask, /sessions/*, /health, /docs
+└─ Storage: /data/sessions/*.json
+
+Terminal 2 (Frontend):
+├─ Vite dev server
+├─ Port: 5173
+├─ React + TypeScript
+└─ Hot reload enabled
+
+Browser:
+├─ React UI
+├─ Session management (useSession hook)
+├─ Message handling (useChat hook)
+└─ WebSocket/HTTP to backend
+
+
+PERFORMANCE NOTES
+═════════════════════════════════════════════════════════════════════════════
+
+First load: 5-10 seconds (frontend compilation)
+Message send: 2-5 seconds (Ollama processing)
+Session switch: 1-2 seconds (message loading)
+Sidebar load: <500ms
+
+Normal behavior - not a bug
+
+
+EXPECTED CONSOLE OUTPUT
+═════════════════════════════════════════════════════════════════════════════
+
+Browser Console (F12):
+[SESSION] Initializing...
+[SESSION] Created new session: sess_abc123
+[SESSION] Initializing AuditLogger...
+[API] /ask endpoint called
+[API] Query: What is the policy?
+[SESSION] Manager initialized at: data\sessions
+
+Backend Console:
+INFO:     Application startup complete
+[API] /ask endpoint called
+[API] Query: What is the policy?
+INFO:     127.0.0.1:59520 - "POST /ask HTTP/1.1" 200 OK
+
+No errors = Working correctly ✅
+
+
+NEXT STEPS
+═════════════════════════════════════════════════════════════════════════════
+
+1. ✅ Start both terminals
+2. ✅ Open browser to http://localhost:5173/
+3. ✅ Test all scenarios above
+4. ✅ Verify behavior matches ChatGPT
+5. ✅ Check console for no errors
+6. ✅ Done!
+
+
+QUESTIONS?
+═════════════════════════════════════════════════════════════════════════════
+
+Read detailed guides:
+├─ CHATGPT_SESSION_SYSTEM_COMPLETE.md (comprehensive)
+├─ CHATGPT_SESSION_FIX_COMPLETE.md (implementation details)
+└─ This file (quick reference)
+
+Check browser console (F12) for error messages
+Check backend console for server errors
+Verify all terminals running without "error" or "exception"
+
+
+STATUS: ✅ READY TO RUN
+═════════════════════════════════════════════════════════════════════════════
